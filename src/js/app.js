@@ -26,7 +26,9 @@ var app = new Framework7({
   // App routes
   routes: routes,
 
-
+  view: {
+    transition: 'f7-cover-v'
+  },
   // Input settings
   input: {
     scrollIntoViewOnFocus: Framework7.device.cordova && !Framework7.device.electron,
