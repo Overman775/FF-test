@@ -16,6 +16,9 @@
   background: url('../static/logo.svg') no-repeat;
   margin-left: 10px;
 }
+.main-page .page-content{
+  background-color: #e2e2e2;
+}
 .fruit-swiper{
   margin: 35px 0 35px;
   font-size: 18px;
